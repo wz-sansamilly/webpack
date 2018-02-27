@@ -7,11 +7,13 @@
     "webpack": "^4.0.0"
   },
   "devDependencies": {
-    "webpack-cli": "^2.0.9"
+    "webpack-cli": "^2.0.9",
+    "webpack-dev-server": "^3.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"webpack"
+    "start": "webpack",
+    "server":"webpack-dev-server --open"
   },
   "author": "",
   "license": "ISC"
